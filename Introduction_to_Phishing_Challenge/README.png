@@ -1,0 +1,47 @@
+# Introduction to Phishing - SOC Simulator Challenge
+
+**Difficulty:** Easy  
+**Time to Complete:** ~28 minutes (first attempt)  
+**Status:** ✅ Completed  
+**True Positive Rate:** 100% (4/4 correct)
+
+## Scenario Overview
+
+Investigated multiple phishing alerts targeting employees at The Try Daily publication. Identified malicious emails using HR onboarding, Amazon delivery, and Microsoft account themes. Correlated email logs with firewall data to determine impact and escalation requirements.
+
+## Key Achievements
+
+- Successfully triaged 4 phishing alerts
+- Identified malicious infrastructure using threat intelligence (TryDetectThis)
+- Correlated SIEM logs to verify user click activity
+- Wrote structured incident reports with proper IOC documentation
+- Earned 3/6 available badges including 100% TP rate
+
+## Alerts Investigated
+
+| Alert ID | Type | Severity | Classification | Escalation |
+|----------|------|----------|----------------|------------|
+| 8814 | Phishing Email | Medium | TP | No |
+| 8815 | Phishing Email | Medium | TP | No |
+| 8816 | Firewall Block | High | TP | No |
+| 8817 | Phishing Email | Medium | TP | No |
+
+## Skills Demonstrated
+
+- Email header analysis and sender verification
+- Domain/IP reputation checking
+- SIEM log correlation (Splunk)
+- Firewall log analysis
+- True Positive vs False Positive classification
+- Escalation decision-making
+- IOC extraction and documentation
+
+## Tools Used
+
+- TryDetectThis (threat intelligence)
+- Splunk SIEM
+- SOC Simulator dashboard
+
+---
+
+*Completed as part of SOC Level 1 training on TryHackMe*
